@@ -1,8 +1,12 @@
 minApprovals:
-  OWNER: 1
-  MEMBER: 2
+  COLLABORATOR: 0
 
 reportStatus: true
 mergeMethod: rebase
 
 
+rules:
+- minApprovals:
+    OWNER: 1
+- minApprovals:
+    MEMBER: 2
