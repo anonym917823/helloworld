@@ -1,6 +1,5 @@
 minApprovals:
   OWNER: 1
-  MEMBER: 2
 
 reportStatus: true
 mergeMethod: rebase
